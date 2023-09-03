@@ -1,0 +1,37 @@
+font-family: 'Oswald',
+sans-serif;
+font-family: 'Phudu',
+cursive;
+font-family: 'Rubik',
+sans-serif;
+
+
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        -webkit-appearance: none;
+        background-color: rgb(179, 179, 179);
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 10px;
+        -webkit-appearance: none;
+        color: white;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 1px;
+        -webkit-appearance: none;
+        height: 10px;
+        cursor: ew-resize;
+        background: white;
+        box-shadow: -90vh 0 0 90vh, black;
+        box-shadow: -36.5rem 0 0 36.5rem white;
+    }
+
+}

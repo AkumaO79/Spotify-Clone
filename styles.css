@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Phudu:wght@500&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+}
+
+
+/* navbar */
+
+.nav {
+    background-color: rgb(18, 18, 18);
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 24px;
+    width: 24px;
+    padding: 0px 15px;
+}
+
+.named {
+    color: white;
+    font-family: 'Phudu', cursive;
+}
+
+
+
+/* main body */
+
+.backbanner {
+    background-image: linear-gradient(to bottom right, red, black);
+    height: 81vh;
+    width: 90vw;
+}
+
+.playlisttitleup {
+    display: flex;
+    margin: 4vh 4vw 2vh;
+    align-items: center;
+}
+
+.songbannermain {
+    height: 20vh;
+    width: 20vh;
+}
+
+.playlisttitle {
+    font-family: 'Phudu', cursive;
+    /* font-size: 6rem; */
+    font-size: 6.2vw;
+    margin-left: 4vw;
+    color: white;
+}
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.backbannerkabaap {
+    display: flex;
+    justify-content: center;
+}
+
+.songlistbox {
+    display: flex;
+    justify-content: center;
+}
+
+.classifyup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(179, 179, 179);
+    font-size: 1vw;
+}
+
+.classify {
+    width: 80vw;
+}
+
+.classifyhr {
+    color: rgb(179, 179, 179) solid;
+    opacity: 0.7;
+    margin-top: 1vh;
+}
+
+.classifytitle {
+    margin-left: 10vw;
+}
+
+.classifyalbum {
+    margin-left: 16.5vw;
+}
+
+.classifydate {
+    margin-left: 13.5vw;
+}
+
+.classifyduration {
+    margin-left: 10vw;
+}
+
+.song:hover {
+    background-color: #cbdccb;
+    opacity: 0.9;
+}
+
+.songlist {
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+    max-width: 80vw;
+}
+
+.songcover {
+    height: 7vh;
+    width: 7vh;
+    margin-left: 2vw;
+}
+
+.nameartist {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    font-size: 1.1vw;
+    width: 10vw;
+}
+
+.songname {
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+}
+
+.song {
+    display: flex;
+    /* background-color: white; */
+    justify-content: column;
+    align-items: center;
+    margin-bottom: 1.2vh;
+    color: white;
+}
+
+.album {
+    margin-left: 10vw;
+    color: rgb(179, 179, 179);
+    font-size: 1.1vw;
+    width: 8vw;
+}
+
+.date {
+    margin-left: 10vw;
+    color: rgb(179, 179, 179);
+    font-size: 1.1vw;
+    width: 8vw;
+}
+
+.duration {
+    margin-left: 10vw;
+    color: rgb(179, 179, 179);
+    font-size: 1.1vw;
+    width: 2vw
+}
+
+.playbanner {
+    height: 28px;
+    width: 28px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    background-color: rgb(18, 18, 18);
+}
+
+.leftist {
+    position: fixed;
+    left: 15px;
+}
+
+.currentsongbox {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.songinfo {
+    margin-left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Phudu', cursive;
+}
+
+.songgif {
+    height: 5vh;
+    margin-left: 1vw;
+    opacity: 0;
+    transition: opacity 0.1s ease-in;
+}
+
+.songpic {
+    max-height: 7vh;
+    max-width: 7vh
+}
+
+.artistinfo {
+    margin-left: 1.5vw;
+    margin-top: 1px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5vh;
+    color: rgb(179, 179, 179);
+    ;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightist {
+    position: fixed;
+    right: 15px;
+}
+
+.controls {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.actualbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonchange:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.previous {
+    height: 28px;
+    width: 28px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.play {
+    height: 45px;
+    width: 45px;
+    margin: 0px 13px;
+}
+
+.next {
+    height: 28px;
+    width: 28px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+/* Progress bar CSS: */
+.progress {
+    margin-top: 10px;
+    /* width: 90vh; */
+    width: 36.5rem;
+    height: 4px;
+    color: grey;
+}
+
+/* .progress::-moz-progress-bar {
+    background: green;
+}
+
+.progress::-webkit-progress-value {
+    background: green;
+}
+
+.progress {
+    background: green;
+} */
+
+/*Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+        overflow: hidden;
+        -webkit-appearance: none;
+        background-color: rgb(179, 179, 179);
+    }
+
+    input[type='range']::-webkit-slider-runnable-track {
+        height: 10px;
+        color: red;
+        -webkit-appearance: none;
+        margin-top: -1px;
+    }
+
+    input[type='range']::-webkit-slider-thumb {
+        width: 1px;
+        height: 10px;
+        cursor: grab;
+        background: white;
+        -webkit-appearance: none;
+        box-shadow: -90vh 0 0 90vh, black;
+        box-shadow: -36.5rem 0 0 36.5rem white;
+        tansition: box-shadow 0.1s ease;
+    }
+
+    input[type='range']::-webkit-slider-thumb:hover {
+        box-shadow: -36.5rem 0 0 36.5rem green;
+        -webkit-appearance: visible;
+    }
+
+    input[type='range']::-webkit-slider-runnable-track:hover {
+        box-shadow: -36.5rem 0 0 36.5rem green;
+        -webkit-appearance: visible;
+    }
+
+}
+
+/** FF*/
+input[type="range"]::-moz-range-progress {
+    background-color: white;
+}
+
+input[type="range"]::-moz-range-track {
+    background-color: rgb(179, 179, 179);
+}
+
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+    background-color: white;
+}
+
+input[type="range"]::-ms-fill-upper {
+    background-color: rgb(179, 179, 179);
+}
